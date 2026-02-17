@@ -1,0 +1,22 @@
+meta {
+  name: signup
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3000/auth/signup
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "firstname":"youssef",
+    "lastname":"youssef",
+    "account_type":"customer",
+    "email":"youssef@gmail.com",
+    "cityOrCities":["cairo"],
+    "password":"123456"
+  }
+}

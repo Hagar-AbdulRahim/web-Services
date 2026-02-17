@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dependency directories
 node_modules/
 **/node_modules/
@@ -32,3 +33,7 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
+=======
+node_modules
+.env
+>>>>>>> a98c8ca (backend)
