@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Petra - Customer Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'petra-sidebar': '#1E3A8A',
+                        'petra-primary': '#1E3A8A',
+                        'petra-accent': '#EF4444',
+                        'petra-bg': '#F8F9FA',
+                        'petra-table-head': '#1E3A8A',
+                        'petra-blue': '#1E3A8A',
+                        'homefix-primary': '#1E3A8A',
+                        'homefix-primary-dark': '#0B1E4A',
+                        'homefix-accent': '#3B82F6',
+                        'homefix-bg': '#F8F9FA',
+                        'homefix-text': '#111827',
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F8FAFB;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
